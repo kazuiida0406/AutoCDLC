@@ -1,22 +1,38 @@
-# Python
+# ==========================
+# AutoCDLC
+# ==========================
+
+# Input media / score files
+input/*.mp3
+input/*.mp4
+input/*.wav
+input/*.gp
+input/*.gp5
+input/*.gpx
+
+# Generated files
+output.xml
+*.eof
+lead.xml
+
+# PSARC output
+*.psarc
+
+# Python cache
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 
-# Virtual Environment
-.venv/
-venv/
-env/
-
-# VS Code
-.vscode/
-
-# Build
+# Build / temp
+output/
 build/
 dist/
+temp/
+work/
 
-# Logs
-*.log
+# IDE
+.vscode/
+.idea/
 
 # OS
 .DS_Store
